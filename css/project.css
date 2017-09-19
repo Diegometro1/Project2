@@ -1,14 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 body{
-    background-color:#CCC;
+    background-color:lightskyblue;
     margin-right: 500px;
     margin-left: 500px;
     margin-top: 60px;
 }
 
 
-p{
+h1{
     color:green;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size:40px;

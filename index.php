@@ -1,3 +1,6 @@
+<?php include 'controlPassword.php';?>
+<?php include 'validation.php';?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,10 +14,13 @@
 </head>
 <body>
 
+<body>
 
-<h1>Password Generator: Project 2</h1>
+
+<h1>Diego's Password Generator Project 2</h1>
 
 <img src="img/images.jpeg" alt="Mountain View" style="width:304px;height:228px;">
+
 
 <form action=" " method="post">
 
@@ -47,6 +53,8 @@
 
 
 <p id = "password">Generated Password: <?php echo $password; ?></p>
+
+</body>
 
 
 </body>

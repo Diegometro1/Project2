@@ -36,13 +36,13 @@ include('controlPassword.php');
     <br><br>
 
     Gender:
-    <input type='radio' name='gender' id="gender" value='<?=$form->prefill('gender')?>'checked>Female
-    <input type='radio' name='gender' id="gender" value='<?=$form->prefill('gender')?>'>Male
+    <input type='radio' name='gender' value='<?=$form->prefill('gender')?>' checked>Female
+    <input type='radio' name='gender' value='<?=$form->prefill('gender')?>'>Male
 
     <br><br>
 
-    <label for='length'>Length (numeric|min:0|max:40)</label>
-    <input type='number' name='length' value='<?=$form->prefill('rank', '39')?>'>
+    <label for='rank'>Length (numeric|min:0|max:40)</label>
+    <input type='number' name='rank' value='<?=$form->prefill('rank', '39')?>'>
 
 
     <br />

@@ -1,5 +1,5 @@
 <?php
-namespace form;
+namespace Forma;
 # For examples, see:
 # https://github.com/susanBuck/dwa15-php-practice/blob/master/formDemo.php
 # https://github.com/susanBuck/dwa15-php-practice/blob/master/formDemoLogic.php

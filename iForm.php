@@ -1,5 +1,5 @@
 <?php
-require('formDemoLogic.php');
+require('iFormLogic.php');
 include('controlPassword.php');
 ?>
 
@@ -34,8 +34,8 @@ include('controlPassword.php');
     <br><br>
 
     Gender:
-    <input type='radio' name='gender' value='<?=$form->prefill('gender')?>' checked>Female
-    <input type='radio' name='gender' value='<?=$form->prefill('gender')?>'>Male
+    <input type='radio' name='gender' value='<?=$form->prefill('gender')?>' >Female
+    <input type='radio' name='gender' value='<?=$form->prefill('gender')?>' checked>Male
 
     <br><br>
 
@@ -74,6 +74,8 @@ include('controlPassword.php');
 </form>
 
 <p id = "password">Generated Password: <?php echo $password; ?></p>
+
+
 
 
 

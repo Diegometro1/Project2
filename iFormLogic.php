@@ -1,6 +1,6 @@
 <?php
 require('formClass.php');
-$form = new Forma\Form($_GET);
+$form = new Forma\Form($_POST);
 if ($form->isSubmitted()) {
     $errors = $form->validate(
         [

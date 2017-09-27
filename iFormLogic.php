@@ -9,7 +9,7 @@ if ($form->isSubmitted()) {
             'lastname' => 'alphaNumeric',
             'email' => 'required|email',
             'gender' =>'required',
-            'length' => 'numeric|min:0|max:40',
+            'rank' => 'numeric|min:0|max:40',
         ]
     );
 }

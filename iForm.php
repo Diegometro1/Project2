@@ -18,7 +18,7 @@ include('controlPassword.php');
 <h1>Diego's Password Generator Project 2</h1>
 <img src="img/images.jpeg" alt="Mountain View" style="width:304px;height:228px;">
 
-<form method = 'post'>
+<form method = 'get'>
 
 
     <label for='username'>Username (alphaNumeric)</label>
